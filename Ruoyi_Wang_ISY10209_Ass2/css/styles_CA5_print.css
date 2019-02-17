@@ -1,0 +1,131 @@
+body { font-size: 1.27em;
+      margin-top:10px;
+      margin-bottom:10px;
+      font-family:Arial, Verdana, sans-serif, Geneva;
+}           
+#logo{   height: 160px;
+         clear: both;
+         line-height: 26px;
+         padding-top: 10px;
+         padding-left: 20px;
+         font-family: Georgia, "Times New Roman", serif, Times;
+         font-size:24pt;
+         color: #FBD539;
+		 text-align: center;
+}
+#summary{ 
+          text-align: left;
+          font-family: verdana, arial, Geneva, sans-serif;
+          font-size:14pt;
+          font-weight:bold;
+}
+#introduction{ font-style: normal;
+               font-family: cursive,Brush Script MT, Comic Sans MS;
+               font-size:1.35em;
+}
+#container { 
+            padding-left: 0px;
+			padding-right: 0px;
+			padding-top: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+}
+#advert{ width: 166px;
+         margin-top: auto;
+		 margin-bottom: auto;
+		 display: none;
+}
+#content{ margin-left: auto;
+          margin-right: auto;
+		  padding-left:4px;
+		  padding-right:4px;
+}
+#content a{ 
+		   text-decoration: none;
+		   font-weight: bold;
+		   font-size:1.10em;
+}
+#floatleft{ float: left;
+            margin-left: 0px;
+            margin-right: 5px;
+			display: none;
+}
+#floatright{ float: right;
+            margin-left: 0px;
+            margin-right: 5px;
+			display: none;
+}
+h3 {
+    padding-left: 0px;
+    font-family: Curlz MT,fantasy,Jokerman;
+    font-size:1.75em;
+} 
+ol { font-weight:bold;
+   text-align: left;
+}
+ul { font-style: italic;
+} 
+table{ border: 3px solid #000000;
+      width:100%;
+      margin:auto;
+      border-collapse: collapse;
+}
+th, td { border: 1px solid #000000;
+       padding: 5px;
+	   text-align: center;
+}
+#linklist { padding-left: 0px;
+           margin-left: 0px;
+		   margin-right: 0px;
+           margin-top: 0px;
+		   display: none;
+}
+#linklist li{ list-style: none;
+            display: none;
+}
+
+#advert { padding-left: 0px;
+          margin-left: 0px;
+		  margin-right: 0px;
+          margin-top: 0px;
+		  display: none
+}
+.navbutton { border: 3px outset #ff9900;
+             display: block;
+             width: 152px;
+             color: white;
+             height: 34px;
+             padding-top: 6px;			 
+             font-family:Tahoma, verdana, arial,sans-serif;
+             font-size: 20px;
+			 font-style: normal;
+             font-weight: bold;
+             text-align: center;
+             text-decoration: none;
+             background-image: url(../images/Navbutton/button_normal.jpg);
+             display: none;			 
+}					
+.imagelink { border: 3px outset #ff9900;
+            display: none;
+}
+.contactlink{ display: block;
+}
+dd img{ display:none;
+}
+#textlink { font-size:0.9em; 
+           text-align:center;
+		   color: #666600;
+		   display: none;
+}
+#textlink a{ color: #669900;
+		    text-decoration: none;
+			display: none;
+}
+#footer a{  text-decoration: none;
+}
+#footer { font-weight:normal;
+         font-size:11pt;
+		 text-align: center;
+}
+
+

@@ -1,0 +1,229 @@
+body { background: #FFFFCC url(../images/background.jpg);
+      margin-top:10px;
+      margin-bottom:10px;
+      color:#333333;
+      font-family: Verdana, Arial, Sans-serif;
+	  font-size: 1.08em;
+}   
+        
+#logo{   height: 200px;
+         background: url('../images/logo.jpg') no-repeat top; 
+         clear: both;
+         line-height: 120px;
+         padding-top: 0px;
+         padding-left: 110px;
+         font-family: Times-New-Roman, Georgia, Times;
+         font-size:1.60em;
+         color: white;
+}
+
+#container { width: 1000px;
+            background: url('../images/container.gif');
+            padding-left: 10px;
+			padding-right: 10px;
+			margin-left: auto;
+			margin-right: auto;
+}
+
+#leftside { float: left;
+           width: 205px;
+}
+
+#content{ margin-left: 205px;
+		  padding-left:5px;
+		  padding-right:5px;
+}
+
+#content a{ color: #993333;
+		   text-decoration: none;
+		   font-weight: bold;
+		   font-size:1.0em;
+}
+
+#content a:hover { text-decoration: underline;
+                  color:#cc6677;
+}
+
+#content a:active { color:#cc6677;
+}
+
+#form { padding: 10px;
+        margin: 10px;
+		min-width: 500px;
+}
+
+h2 { color: #66ccee;
+}
+
+h3 { color: #cc9900;
+    padding-left: 40px;
+    font-family: Jokerman, Curlz-MT, fantasy;
+    background: url(../images/bullet.png) no-repeat;
+	font-size: 1.40em;
+} 
+
+ol { color:#229999;
+    font-family:Arial, Verdana, sans-serif, Geneva;
+    text-align: left;
+}
+
+ul { font-weight: bold;
+	font-size:1.0em;
+	color: #993333;
+}
+
+table{ border: 3px solid #cc9933;
+      width:800px;
+      margin:auto;
+      border-collapse: collapse;
+}
+
+th, td { border: 1px solid #cc9933;
+       padding: 5px;
+	   text-align: center;
+}
+legend { font-weight: bold;
+        font-size: 1.10em;
+}
+
+#linklist { 
+           padding-left: 0px;
+           margin-left: 0px;
+		   margin-right: 0px;
+           margin-top: 10px;
+}
+
+#linklist li{ list-style: none;
+}
+
+.floatleft{ float: left;
+            margin-left: 0px;
+            margin-right: 5px;
+}
+
+.floatright{ float: right;
+            margin-left: 0px;
+            margin-right: 5px;
+}
+
+.name, .university { font-family: cursive, Comic-Sans-MS, Brush-Script-MT;
+		            font-size: 1.3em;
+					font-weight: bold;
+		            color: #cc6666;
+}
+
+.navbutton { display: block;
+             margin-bottom:13px;
+             width: 200px;
+             color: white;
+             height: 38px;
+             padding-top: 6px;	
+			 font-family:Tahoma, verdana, arial,sans-serif; 
+             font-size: 20px;
+             font-weight: bold;
+             text-align: center;
+             text-decoration: none;
+             background-image: url(../images/navbutton/button_normal.jpg);		 
+}
+
+.navbutton1 { margin-bottom:13px;
+             display: block;
+             width: 200px;
+             color: #444444;
+             height: 38px;
+             padding-top: 6px;			 
+             font-family:Tahoma, verdana, arial,sans-serif;
+             font-size: 20px;
+			 font-style: normal;
+             font-weight: bold;
+             text-align: center;
+             text-decoration: none;
+             background-image: url(../images/navbutton/button_current.jpg);		 
+} 
+
+.navbutton:hover, .navbutton1:hover { display: block;
+                                     background-image: url(../images/navbutton/button_hover.jpg);
+				                     color: #cc6666;
+}
+
+.navbutton:active, .navbutton1:active  { background-image: url(../images/navbutton/button_current.jpg);
+                                        color: #444444;				   
+}
+
+/* Flowers image on leftside */			
+.imagelink  
+{ border: 3px outset #66ccff;
+  margin-top: 30px;
+}
+
+.imagelink:hover { border: 3px outset #3399cc;
+}
+
+.imagelink:active { border: 3px outset #99ffff;
+}
+
+.signup{ color: #996666;
+		 text-decoration: none;
+		 font-weight: bold;
+		 font-size:1.0em;
+}
+
+.signup:hover { text-decoration: underline;
+                color:#663333;
+}
+
+.signup:active { color:#663333;
+}
+
+.leftlink 
+{  color:#993333;
+   text-decoration: none;
+   font-weight: bold;
+   font-size:1.01em;
+}
+
+.leftlink:hover { text-decoration: underline;
+                color:#cc6677;
+}
+
+.leftlink:active { color:#cc6677;
+}
+
+.row { padding-bottom: 20px;
+}
+ 
+.labelcol { float: left;
+            width: 240px;
+			text-align: right;
+			padding-right: 10px;
+}
+
+/* Submit and Reset */
+.button { margin-top: 10px;
+         margin-left: 110px;
+}
+
+.altrow{ background-color:#ffcc66;
+}
+
+/* Navigation links */
+#textlink  
+{ font-size:0.9em; 
+  text-align:center;
+}
+
+#textlink a{ color: #993333;
+		    text-decoration: none;
+}
+
+#textlink a:hover { text-decoration: underline;
+}
+
+#textlink a:active { color:#cc6677;
+}
+
+#footer { font-weight:lighter;
+         font-size:0.75em;
+		 text-align: center;
+		 padding-bottom: 10px;
+}

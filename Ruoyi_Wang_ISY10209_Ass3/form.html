@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="css/styles_Ass3.css" type="text/css"/>
+<title>Ruoyi Wang &#124; Web Development Skills &#124; Signup Form</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style type="text/css">
+.sitelogo { border: 3px outset #996666;
+            margin-top: 20px;
+}
+h3 { color: #0099cc;
+     font-family: Comic Sans MS, cursive, Brush Script MT;
+	 font-size: 1.25em;
+}
+.red { color: red;
+      background-color: transparent;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+<!-- <![CDATA[ 
+ alert("Welcome to the King's Music Store - Newsletter Signup!") 
+
+ function validateForm() 
+  { 
+    if (document.forms[0].firstname.value == "")
+	{
+	  alert("First name field cannot be empty.");
+	  return false;
+	} // end if
+	 if (document.forms[0].lastname.value == "")
+	{
+	  alert("Last name field cannot be empty.");
+	  return false;
+	} // end if
+	 if (document.forms[0].email.value == "")
+	{
+	  alert("Email address field cannot be empty.");
+	  return false;
+	} // end if
+	return true;
+} // end function validateForm
+// ]]> -->
+</script>
+<div id="container">
+ <div id="logo">
+   <h1>RUOYI WANG</h1>
+ </div>
+  <div id="leftside">    
+      <div id="navbar">
+      <ul id="linklist">
+      <li><a class="navbutton" href="Ruoyi_Wang_Ass3_index.html">Home</a></li>
+      <li><a class="navbutton" href="Ruoyi_Wang_Ass3_resume.html">About</a></li>
+      <li><a class="navbutton1" href="Ruoyi_Wang_Ass3_web.html">Web</a></li>
+      <li><a class="navbutton" href="Ruoyi_Wang_Ass3_working_ability.html">Working Ability</a></li>
+      <li><a class="navbutton" href="Ruoyi_Wang_Ass3_management.html">Project</a></li>
+      <li><a class="navbutton" href="Ruoyi_Wang_Ass3_analysis.html">Analysis</a></li> 
+	  <li><a class="navbutton" href="Ruoyi_Wang_Ass3_contact.html">Contact</a></li>
+	  <li><a href="images/nav_figure.jpg"><img class="imagelink" src="images/thumb_nav_figure.jpg" height="155" width="195" alt="flower" title="Click for a larger picture." border="0"/></a></li>
+      </ul>
+	  </div>	  
+	  <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> 
+      <!-- Back link -->
+	  <a class="leftlink" title="Click back to Web Development Skills page." href="Ruoyi_Wang_Ass3_web.html">&lt;&lt; Back to Web Skills Page</a> 
+  </div>  
+  
+  <div id="content">
+    <img class="sitelogo" src="images/design/kings_music.jpg" height="80" width="300" alt="king's music" border="0"/>
+    <h3>Please complete this form to join the newsletter of King&#39;s Music Store.</h3>
+    <!-- Form start -->
+	<div id="form">
+      <form name="signup" method="post" id="signup" action="http://infotech.scu.edu.au/cgi-bin/echo_form" onsubmit="return validateForm();">
+      <fieldset><legend>Customer Information</legend>
+      <div class="required_fields" style=" text-align: right; font-size: 1.0em; padding-bottom: 20px; color:red;">* indicates required fields</div>
+      <div class="row">
+        <label class="labelcol" for="firstname">First Name:</label> <span class="red" id="first_name_required" style="visibility: visible">*</span>
+        <input type="text" name="firstname" id="firstname" size="60" />
+      </div>
+      <div class="row">
+        <label class="labelcol" for="lastname">Last Name:</label> <span class="red" id="last_name_required" style="visibility: visible">*</span>
+        <input type="text" name="lastname" id="lastname" size="60" />
+      </div>
+      <div class="row">
+        <label class="labelcol" for="email">Email Address:</label> <span class="red" id="email_required" style="visibility: visible">*</span>
+        <input type="text" name="email" id="email" size="60" />
+      </div>
+      <div class="row">
+      <label class="labelcol">Select your age range:</label>
+         <input type="radio" name="age" id="fifteen" value="15-25" /> 15-25&nbsp;&nbsp;
+		 <input type="radio" name="age" id="twentysix" value="26-35" /> 26-35&nbsp;&nbsp;
+		 <input type="radio" name="age" id="thirtysix" value="36-45" /> 36-45&nbsp;&nbsp;
+		 <input type="radio" name="age" id="fortysix" value="46-55" /> 46-55&nbsp;&nbsp;
+	     <input type="radio" name="age" id="fiftyfive" value="55+" /> 55+
+      </div>
+      <div class="row">
+         <label class="labelcol" >Your favourite music types:</label>
+      <div style="overflow: auto;">
+         <input type="checkbox" name="heavymetal" id="heavymetal" value="yes" /> Heavy Metal<br/>
+		 <input type="checkbox" name="country" id="country" value="yes" /> Country and Western<br/>
+		 <input type="checkbox" name="classical" id="classical" value="yes" /> Classical<br/>
+		 <input type="checkbox" name="rock" id="rock" value="yes" /> Rock &amp; Roll<br/>
+		 <input type="checkbox" name="pop" id="pop" value="yes" /> Pop<br/>
+		 <input type="checkbox" name="folk" id="folk" value="yes" /> Folk<br/>
+		 <input type="checkbox" name="blues" id="blues" value="yes" /> Blues<br/>
+		 <input type="checkbox" name="jazz" id="jazz" value="yes" /> Jazz<br/>
+		 <input type="checkbox" name="disco" id="disco" value="yes" /> Disco<br/>
+		 <input type="checkbox" name="opera" id="opera" value="yes" /> Opera
+     </div>		 
+     </div>
+     </fieldset><br/><br/>
+     
+	 <div>
+       <label style="float: left; padding-right: 10px;">Comments:</label>
+       <textarea name="musiccomments" id="musiccimments" cols="70" rows="5" style="color:#333333; font-family: Verdana, Arial, Sans-serif;">Please enter your comments here to inform us any further types of music you are searching for</textarea> <br/><br/> 
+     </div>
+     
+	 <div class="button">
+       <input type="submit" value="Submit" name="submit" id="submit" />&nbsp;&nbsp;
+       <input type="reset" value="Reset" name="reset" id="reset" />
+     </div>
+     </form>
+     </div>
+  </div>
+  
+  <hr />
+  <div id="textlink">
+    <a href="Ruoyi_Wang_Ass3_index.html">Home</a> &#124;
+    <a href="Ruoyi_Wang_Ass3_resume.html">About</a> &#124;
+    <a href="Ruoyi_Wang_Ass3_web.html">Web</a> &#124;
+    <a href="Ruoyi_Wang_Ass3_working_ability.html">Working Ability</a> &#124;
+    <a href="Ruoyi_Wang_Ass3_management.html">Project</a> &#124;
+    <a href="Ruoyi_Wang_Ass3_analysis.html">Analysis</a> &#124;
+	<a href="Ruoyi_Wang_Ass3_contact.html">Contact</a>
+  </div>
+  <div id="footer">
+	<p><i>Copyright &copy; 2013 Ruoyi Wang Personal Porfolio. All rights reserved.</i></p>
+  </div>
+  </div>
+</body>
+</html>
